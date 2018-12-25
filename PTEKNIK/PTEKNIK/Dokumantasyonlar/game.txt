@@ -1,0 +1,35 @@
+yukarda çok varyasyonlu bir þekil
+
+aþaðýda onun içinden geçmesi için çok varyasyonlu delikler 
+
+mesela yuvarlak kareden geçebilir
+
+
+
+3 adet yol
+yoldan kayarak gelen nesneler
+týklanan nesne yok olur
+bazý nesnelere týklanmamalýdýr 
+
+
+uzay plane
+3 boyutlu karþýdan nesneler geliyor
+onlardan puan almak için çizip nesne yolluyoruz
+deðince puan alýyoruz.
+karþýdaki nesneler bize çarparsa canýmýz gidiyor
+----line çizildi diye bir key koyulacak integer 0,1
+
+2018 06 14
+-collider line deðince yok et
+-can barýný telefonda test et ve ekran sorununu araþtýr
+-uzay arka planý assets
+-dünya skini
+-sistemin sürekliliðini saðla
+
+
+amazon kimlik fotokopisi,hesap extresi yükle
+
+
+
+d0gakp5oeolf9r
+6mCzaf8Vhy

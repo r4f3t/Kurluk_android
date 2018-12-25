@@ -1,0 +1,66 @@
+﻿@model IEnumerable<PTEKNIK.Models.FORMLines>
+
+@{
+    ViewBag.Title = "TeknikTalepler";
+    Layout = "~/Views/Shared/_MasterAdminLayout.cshtml";
+}
+
+<h2>TeknikTalepler</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "TeknikServisList")
+</p>
+<table class="table table-striped">
+    <tr>
+        <th>
+            FİRMA
+        </th>
+        <th>
+            FormTipi
+        </th>
+        <th>
+            AD-SOYAD
+        </th>
+        <th>
+            ADRES
+        </th>
+        <th>
+            TELEFON
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FORMTYPE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ADSOYAD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ADRES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TEL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TEL2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL)
+        </td>
+
+        <td>
+            @Html.ActionLink("Düzenle", "TeknikTalepEdit", new { id = item.LOGICALREF, formtype = item.FORMTYPE }) |
+            @Html.ActionLink("Detay", "TeknikTalepDetail", new { id = item.LOGICALREF, formtype = item.FORMTYPE }) |
+            @Html.ActionLink("Sil", "TeknikTalepDelete", new { id = item.LOGICALREF, formtype = item.FORMTYPE })
+        </td>
+    </tr>
+}
+
+</table>

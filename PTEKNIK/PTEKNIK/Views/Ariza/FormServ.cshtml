@@ -1,0 +1,159 @@
+﻿@model PTEKNIK.Models.FORMServes
+
+@{
+    ViewBag.Title = "FormServ";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Fiş Numarası: @Request.QueryString["ficheno"]  Arıza Fişi İçin Yapılan Hizmetler</h2>
+@Html.Raw(ViewData["msg"])
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4></h4>
+        <hr />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        function FormServeCek() {
+
+            var HFficheno ='@Request.QueryString["ficheno"]';
+            var i = 0;
+            $.ajax({
+                cache: false,
+                type: "GET",
+                url: "GetFormServesLogo",
+                data: { },
+                success: function (data) {
+                    var result = "";
+                    var CMBSERVNAME = document.getElementById('CMBSERVNAME');
+                    $.each(data, function (id, FORMServes) {
+                        result += '<option value="' + FORMServes.SERVNAME + '">' + FORMServes.SERVNAME + '</option>';
+                        i++;
+                    });
+                    CMBSERVNAME.innerHTML += result;
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve DATA!!!.');
+                }
+            });
+        }
+
+        window.onload = FormServeCek();
+        </script>
+
+
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label class="control-label col-md-3" style="text-align:left;">Verdiğiniz Hizmeti Seçin</label>
+                <div class="col-md-9">
+                    <select name="SERVNAME" id="CMBSERVNAME" class="form-control">
+                        <option></option>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-3" style="text-align:left;">Açıklama</label>
+                <div class="col-md-9">
+                    <textarea class="form-control" name="ACIKLAMA" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Hizmet Ekle" class="btn btn-success" />
+                <a href="FormLine?ficheno=@Request.QueryString["ficheno"]" class="btn btn-danger"> Geri Dön</a>
+                <a href="javascript::" onclick="FormKaydet();" class="btn btn-primary pull-right">Formu Kaydet İşlemi Bitir</a>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+        function FormKaydet() {
+            //hizmet sayısını bul
+            var trler = document.getElementById("TBLForms").getElementsByTagName("tr");
+            var trCount = trler.length;
+            if (trCount <= 0) {
+                alert('Servis Eklemeden İlerleyemezsiniz !!!');
+                return;
+            }
+            var ficheno = '@Request.QueryString["ficheno"]';
+            $.ajax({
+
+                type: "POST",
+                url: "FormKayitBitir",
+                data: {
+                    'ficheno': ficheno
+                },
+                success: function (response) {
+                    window.location.href = 'Index';
+                }
+            });
+        }
+        function SatirSil(REF) {
+            $.ajax({
+                type: "POST",
+                url: "ServSatirSil",
+                data: {
+                    LOGICALREF: REF
+                },
+                success: function (response) {
+                    Vericek();
+                }
+            });
+        }
+        function Vericek() {
+            var HFficheno ='@Request.QueryString["ficheno"]';
+            var i = 0;
+            $.ajax({
+                cache: false,
+                type: "GET",
+                url: "GetFormServes",
+                data: { 'ficheno': HFficheno },
+                success: function (data) {
+                    var result = "";
+                    var TBLFORMS = document.getElementById('TBLForms');
+                    $.each(data, function (id, FORMServes) {
+                        result += '<tr style="border-bottom:1px solid #dadada;font-size:12px;">' +
+                            '<td><a href="#" class="btn btn-sm btn-danger" onclick="SatirSil(' + FORMServes.LOGICALREF + ')" >Sil</a></td>' +
+                            '<td>' + FORMServes.SERVNAME + '</td>' +
+                            '<td>' + FORMServes.ACIKLAMA + '</td>' +
+                            '</tr>';
+                        i++;
+                    });
+                    TBLFORMS.innerHTML = result;
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve DATA!!!.');
+                }
+            });
+        }1
+
+        window.onload = Vericek();
+        </script>
+
+
+        <div class="col-lg-6">
+            <div class="row" style="padding:5px;">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="bg-primary">
+                            <th></th>
+                            <th>Hizmet</th>
+                            <th>Açıklaması</th>
+                        </tr>
+                    </thead>
+                    <tbody id="TBLForms"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+
+</div>
+
+

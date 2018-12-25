@@ -1,0 +1,173 @@
+﻿@model PTEKNIK.Models.FORMLines
+@{
+    ViewBag.Title = "FormBas";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Arıza Formu Genel Bilgiler</h2>
+
+<script>
+
+    window.onload = (function () {
+
+        $('.phone').mask('(000) 000 00 00');
+    });
+</script>
+
+@Html.Raw(TempData["msg"])
+
+@using (Html.BeginForm())
+{
+    @Html.Hidden("FORMTYPE", "ARIZA")
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <h4>Yeni Form Oluştur</h4>
+
+        <hr />
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Form Bilgileri
+                </div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Belge No</div></span>
+                                @Html.EditorFor(model => model.BELGESTR, new { htmlAttributes = new { id = "TXTBELGESTR", @class = "form-control", @disabled = "true" } })
+                                @Html.ValidationMessageFor(model => model.BELGESTR, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style=" text-align:left;">/</div></span>
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                @Html.EditorFor(model => model.BELGENO, new { htmlAttributes = new { id = "TXTBELGENO", @class = "form-control", @disabled = "true" } })
+                                @Html.ValidationMessageFor(model => model.BELGENO, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon">Müşterinin Adı</span>
+                                @Html.EditorFor(model => model.ADSOYAD, new { htmlAttributes = new { id = "TXTADSOYAD", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ADSOYAD, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Adres</div></span>
+                                @Html.EditorFor(model => model.ADRES, new { htmlAttributes = new { id = "TXTADRES", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ADRES, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">GSM</div></span>
+                                @Html.EditorFor(model => model.TEL, new { htmlAttributes = new { id = "TXTTEL", @class = "form-control phone" } })
+                                @Html.ValidationMessageFor(model => model.TEL, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Tel</div></span>
+                                @Html.EditorFor(model => model.TEL2, new { htmlAttributes = new { id = "TXTTEL2", @class = "form-control phone" } })
+                                @Html.ValidationMessageFor(model => model.TEL2, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">E-Posta</div></span>
+                                @Html.EditorFor(model => model.EMAIL, new { htmlAttributes = new { id = "TXTEMAIL", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Arıza Tarihi</div></span>
+                                @Html.EditorFor(model => model.ARIZADATE, new { htmlAttributes = new { id = "TXTARIZADATE", @class = "form-control datepicker" } })
+                                @Html.ValidationMessageFor(model => model.ARIZADATE, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Arıza Açıklaması</div></span>
+                                @Html.EditorFor(model => model.ACIKLAMA, new { htmlAttributes = new { id = "TXTACIKLAMA", @class = "form-control", @rows = 2 } })
+                                @Html.ValidationMessageFor(model => model.ACIKLAMA, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Yapılan İş</div></span>
+                                @Html.EditorFor(model => model.CACIKLAMA, new { htmlAttributes = new { id = "TXTCACIKLAMA", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.CACIKLAMA, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" class="btn btn-success" value="Kaydet Ve Ürün Seçimiyle Devam Et" />
+
+                        <a href="javascript::" onclick="window.print();" class="btn btn-info">Yazdır</a>
+
+                        <a href="javascript::" onclick="FormSil();" class="btn btn-danger pull-right">Sil</a>
+                    </div>
+                </div>
+                <script>
+                    function FormSil() {
+                        var r = confirm("Formu Silmek İstediğinize Emin Misiniz?");
+                        if (r == false) {
+                            return;
+                        }
+
+                        var ADDDATE = document.getElementById('HFADDDATE').value;
+                        var ficheno='@Request.QueryString["ficheno"]';
+                        $.ajax({
+                            type: "POST",
+                            url: "FormSilJson",
+                            data: { 'ficheno': ficheno },
+                            success: function (response) {
+                                window.location.href = 'Index';
+                            },
+                            error: function (responase) {
+                                Alert("ONaylanmış Bir Kaydı Silemezsiniz!!!");
+                            }
+                        });
+
+                    }
+                </script>
+
+                <div class="panel-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+}

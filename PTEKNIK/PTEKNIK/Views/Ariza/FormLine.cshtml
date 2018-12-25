@@ -1,0 +1,159 @@
+﻿@model PTEKNIK.Models.FORMUrun
+@{
+    ViewBag.Title = "FormLine";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Fiş Numarası: @Request.QueryString["ficheno"]  Arıza Fişinin İçeriği</h2>
+@Html.Raw(ViewData["msg"])
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>@Request.QueryString["adsoyad"] Müşterisi İçin Form Ürünleri</h4>
+    <hr />
+    <div class="col-lg-6">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><div style="width:90px; text-align:left;">İç Barkod</div></span>
+                    @Html.EditorFor(model => model.ICBARKOD, new { htmlAttributes = new { @id = "TXTICBARKOD", @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ICBARKOD, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><div style="width:90px; text-align:left;">Dış Barkod</div></span>
+                    @Html.EditorFor(model => model.DISBARKOD, new { htmlAttributes = new { @id = "TXTDISBARKOD", @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DISBARKOD, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><div style="width:90px; text-align:left;">Kapak</div></span>
+
+                    <input type="text" name="BARKOD3" id="TXTKAPAK" class="form-control" />
+
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+                function btnNextCheck() {
+                    //tablodaki ürün sayısını bul
+                    var LTableRows = document.getElementById('TBLForms').getElementsByTagName('tr');
+                    var countOfTr = LTableRows.length;
+                    if (countOfTr > 0) {
+                        window.location.href ='FormServ?ficheno=@Request.QueryString["ficheno"]';
+                    }
+                    else {
+                        alert('Ürün Eklemeden İlerleyemezsiniz!!!');
+                    }
+                }
+        </script>
+
+
+        <div class="form-group">
+
+            <input type="submit" value="Ürün Ekle" class="btn btn-success" />
+
+            <a href="FormBas?ficheno=@Request.QueryString["ficheno"]" class="btn btn-danger"> Geri Dön</a>
+
+            <a href="javascript::" onclick="btnNextCheck();" class="btn btn-primary pull-right">İleri</a>
+
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    @Html.Hidden("FICHENO", Request.QueryString["ficheno"])
+    @Html.Hidden("FORMTYPE", "ARIZA")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        function UrunSil(REF) {
+            $.ajax({
+                type: "POST",
+                url: "FormUrunSil",
+                data: {
+                    LOGICALREF: REF
+                },
+                success: function (response) {
+                    FormUrunGetir();
+                }
+            });
+        }
+            function FormUrunGetir() {
+                $('#TXTICBARKOD').val('');
+                $('#TXTDISBARKOD').val('');
+                $('#TXTKAPAK').val('');
+            var HFficheno ='@Request.QueryString["ficheno"]';
+            var i = 0;
+            $.ajax({
+                cache: false,
+                type: "GET",
+                url: "GetFormUrunList",
+                data: { 'ficheno': HFficheno },
+                success: function (data) {
+                    var result = "";
+                    var TBLFORMS = document.getElementById('TBLForms');
+                    $.each(data, function (id, FormBarkod) {
+                        var TRBG = (FormBarkod.GARANTI == 0) ? 'bg-danger' : '';
+                        result += '<tr style="border-bottom:1px solid #dadada;font-size:12px;" class="' + TRBG + '">' +
+                            '<td><a href="#" class="btn btn-sm btn-danger" onclick="UrunSil(' + FormBarkod.LOGICALREF + ')" >Sil</a></td>' +
+                            '<td>' + FormBarkod.GARANTI + ' Gün</td>' +
+                            '<td>' + FormBarkod.UrunAdi + '</td >' +
+                            '</tr>';
+                        i++;
+                    });
+                    TBLFORMS.innerHTML = result;
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert('Failed to retrieve DATA!!!.');
+                }
+
+            });
+        }
+
+        window.onload = FormUrunGetir();
+    </script>
+
+
+
+    <div class="col-lg-6">
+        <div class="row" style="padding:5px;">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="bg-primary">
+                        <th></th>
+                        <th>Garanti Bitiş</th>
+                        <th>Ürün</th>
+                    </tr>
+                </thead>
+                <tbody id="TBLForms"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+</div>
+
+}
+
+
+

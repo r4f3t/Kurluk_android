@@ -1,0 +1,394 @@
+﻿@model PTEKNIK.Models.FORMLines
+
+@{
+    ViewBag.Title = "FormAdd";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+
+
+
+<h2>@ViewData["FormAddTitle"]</h2>
+<script>
+
+    window.onload = (function () {
+
+        $('.phone').mask('(000) 000 00 00');
+    });
+</script>
+
+@using (Html.BeginForm())
+{
+    @Html.Hidden("FORMTYPE", Request["formtype"])
+    @Html.AntiForgeryToken()
+    <script>
+
+    </script>
+
+
+    <div class="form-horizontal">
+        <h4>Yeni Form Oluştur</h4>
+
+        <hr />
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Form Bilgileri
+                </div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Belge No</div></span>
+                                @Html.EditorFor(model => model.BELGESTR, new { htmlAttributes = new { id = "TXTBELGESTR", @class = "form-control", @disabled = "true" } })
+                                @Html.ValidationMessageFor(model => model.BELGESTR, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style=" text-align:left;">/</div></span>
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                @Html.EditorFor(model => model.BELGENO, new { htmlAttributes = new { id = "TXTBELGENO", @class = "form-control", @disabled = "true" } })
+                                @Html.ValidationMessageFor(model => model.BELGENO, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon">Müşterinin Adı</span>
+                                @Html.EditorFor(model => model.ADSOYAD, new { htmlAttributes = new { id = "TXTADSOYAD", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ADSOYAD, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Adres</div></span>
+                                @Html.EditorFor(model => model.ADRES, new { htmlAttributes = new { id = "TXTADRES", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ADRES, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">GSM</div></span>
+                                @Html.EditorFor(model => model.TEL, new { htmlAttributes = new { id = "TXTTEL", @class = "form-control phone" } })
+                                @Html.ValidationMessageFor(model => model.TEL, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Tel</div></span>
+                                @Html.EditorFor(model => model.TEL2, new { htmlAttributes = new { id = "TXTTEL2", @class = "form-control phone" } })
+                                @Html.ValidationMessageFor(model => model.TEL2, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">E-Posta</div></span>
+                                @Html.EditorFor(model => model.EMAIL, new { htmlAttributes = new { id = "TXTEMAIL", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row" style="@ViewData["montajdateStyle"]">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Montaj Tarihi</div></span>
+                                @Html.EditorFor(model => model.MONTAJDATE, new { htmlAttributes = new { id = "TXTMONTAJDATE", @class = "form-control datepicker" } })
+                                @Html.ValidationMessageFor(model => model.MONTAJDATE, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="@ViewData["arizadateStyle"]">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Arıza Tarihi</div></span>
+                                @Html.EditorFor(model => model.ARIZADATE, new { htmlAttributes = new { id = "TXTARIZADATE", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ARIZADATE, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Firma</div></span>
+                                @Html.EditorFor(model => model.FIRMA, new { htmlAttributes = new { id = "TXTFIRMA", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.FIRMA, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Açıklama</div></span>
+                                @Html.EditorFor(model => model.ACIKLAMA, new { htmlAttributes = new { id = "TXTACIKLAMA", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ACIKLAMA, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a id="BTNFORMKAYDET" href="#" onclick="FormKaydet()" class="btn btn-success">Kaydet</a>
+                    </div>
+                </div>
+                <div class="panel-footer">
+
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            function FormKaydet() {
+
+                $.ajax(
+                    {
+                        type: "POST",
+                        url: "FormKaydetJQ",
+                        data: {
+                            BELGENO: $("#TXTBELGENO").val(),
+                            BELGESTR: $("#TXTBELGESTR").val(),
+                            ADSOYAD: $("#TXTADSOYAD").val(),
+                            ADRES: $("#TXTADRES").val(),
+                            TEL: $("#TXTTEL").val(),
+                            TEL2: $("#TXTTEL2").val(),
+                            EMAIL: $("#TXTEMAIL").val(),
+                            MONTAJDATE: $("#TXTMONTAJDATE").val(),
+                            ARIZADATE: $("#TXTARIZADATE").val(),
+                            FIRMA: $("#TXTFIRMA").val(),
+                            CLIENTREF: @GLOBALS.GetCookie("giris")["CLIENTREF"],
+                            NAME: "",
+                            CODE: '@GLOBALS.GetCookie("giris")["CODE"]',
+                            ACIKLAMA: $("#TXTACIKLAMA").val(),
+                            FORMTYPE:'@Request.QueryString["formtype"]'
+                        },
+                        success: function (response) {
+                            if (response.success) {
+                                //alert("Ürün Ekleyebilirsiniz!!!")
+                                window.location.href = 'FormEdit?ficheno=' + $("#TXTBELGESTR").val() + '-' + $("#TXTBELGENO").val()+'&formtype=@Request.QueryString["formtype"]';
+                            }
+                            else {
+                                alert("HATALI Giriş Yaptınız Tarihi Kontrol Edin!!!");
+                            }
+                        }
+                    });
+               // window.location.href = 'FormEdit?ficheno=' + $("#TXTBELGESTR").val() + '-' + $("#TXTBELGENO").val()+'&formtype=@Request.QueryString["formtype"]';
+                //$("#PNLURUN").show();
+                //$("#BTNFORMKAYDET").hide();
+            }
+            function UrunEkle() {
+                if ($("#TXTICBARKOD").val().length == 0 || $("#TXTDISBARKOD").val().length == 0)
+                {
+                    $("#TXTICBARKOD").css("background", "red");
+                    $("#TXTICBARKOD").css("color", "white");
+                    $("#TXTDISBARKOD").css("background", "red");
+                    $("#TXTDISBARKOD").css("color", "white");
+                    alert("İç Yada Dış Barkodları Girmeden Ürün Ekleyemezsiniz!!!");
+                    return;
+                }
+                $.ajax(
+                    {
+                        type: "POST", //HTTP POST Method
+                        url: "FormUrunEkle", // Controller/View
+                        data: { //Passing data
+                            ICBARKOD: $("#TXTICBARKOD").val(), //Reading text box values using Jquery
+                            DISBARKOD: $("#TXTDISBARKOD").val(),
+                            BARKOD3: $("#TXTBARKOD3").val(),
+                            FORMREF: $("#HFFORMREF").val()
+                        }
+                    });
+                FormUrunGetir();
+            }
+            function FormUrunGetir() {
+                var id='@Request.QueryString["id"]';
+                var i = 0;
+                $.ajax({
+                    cache: false,
+                    type: "GET",
+                    url: "GetFormUrunList",
+                    data: { 'id': id },
+                    success: function (data) {
+                        var result = "";
+                        var TBLFORMS = document.getElementById('TBLForms');
+                        $.each(data, function (id, BarcodeUrun) {
+                            result += '    <tr style="border-bottom:1px solid #dadada;">' +
+                                '<td>' + BarcodeUrun.UrunAdi + '</td >' +
+                                '<td>' + BarcodeUrun.DEFINITION_ + '</td>' +
+                                '<td>' + new Date(parseInt(BarcodeUrun.DATE_.replace("/Date(", "").replace(")/", ""), 10)).toISOString().split('T')[0] + '</td>' +
+                                '<td></td>' +
+                                '</tr>';
+                            i++;
+                        });
+                        TBLFORMS.innerHTML = result;
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve DATA!!!.');
+                    }
+
+                });
+            }
+
+
+        </script>
+        <input type="hidden" id="HFFORMREF" value="@Request.QueryString["id"]" class="form-control" />
+        <div class="col-lg-6" id="PNLURUN" style="display:none;">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Cihaz Bilgileri
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:20px; text-align:left;">İç </div></span>
+                                <input type="text" id="TXTICBARKOD" onclick="FormUrunGetir();" name="ICBARKOD" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:20px; text-align:left;">Dış </div></span>
+                                <input type="text" id="TXTDISBARKOD" name="DISBARKOD" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:20px; text-align:left;">3.</div></span>
+                                <input type="text" id="TXTBARKOD3" name="BARKOD3" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-lg-1">
+                            <a href="#" class="btn btn-success" onclick="UrunEkle();">+</a>
+                        </div>
+                    </div>
+                    <div class="row" style="padding:5px;">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr class="bg-primary">
+                                    <th>Cihaz</th>
+                                    <th>Firma</th>
+                                    <th>FatTarih</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="TBLForms"></tbody>
+                        </table>
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group" style="@ViewData["montajdateStyle"]">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Montaj Durumu</div></span>
+                                <input type="text" name="MONTAJDURUM" id="TXTMontajDurum" readonly class="danger form-control " />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-0 col-md-10">
+                            <input type="submit" value="İşlemi Bitir" class="btn btn-success" />
+                            <a href="javascript:" onclick="window.print();" class="btn btn-info">Yazdır</a>
+                        </div>
+                        <div class="col-md-2 pull-left">
+                            <a href="Formlist?formtype=@Request.Params["formtype"]" class="btn btn-danger">Geri</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function GetConditioners(fromSearch) {
+            var searchParam = '';
+            if (fromSearch == 1) {
+                searchParam = document.getElementById('TXTCIHAZSERINO').value;
+            }
+            if (searchParam == '') {
+                TXTSATICIFIRMA.value = "";
+                TXTFATURANO.value = "";
+                TXTNAME.value = "";
+                TXTMontajDurum.value = "";
+                TXTSATICIFIRMA.disabled = false;
+                TXTFATURANO.disabled = false;
+                TXTNAME.disabled = false;
+                return;
+            }
+            var i = 0;
+            $.ajax({
+                cache: false,
+                type: "GET",
+                url: "GetConditioner",
+                data: { 'GBarcode': searchParam },
+                success: function (data) {
+                    var result = "";
+                    var TXTSATICIFIRMA = document.getElementById('TXTSATICIFIRMA');
+                    var TXTFATURADATE = document.getElementById('TXTFATURADATE');
+                    var TXTFATURANO = document.getElementById('TXTFATURANO');
+                    var TXTNAME = document.getElementById('TXTNAME');
+                    var TXTMontajDurum = document.getElementById('TXTMontajDurum');
+                    $.each(data, function (id, BarcodeModel) {
+                        TXTSATICIFIRMA.value = BarcodeModel.FATMUSTERI;
+                        // alert(BarcodeModel.FATTARIH);
+                        TXTFATURANO.value = BarcodeModel.FATTURU;
+                        TXTNAME.value = BarcodeModel.NAME;
+                        TXTSATICIFIRMA.setAttribute("disabled", "true");
+                        TXTFATURANO.setAttribute("disabled", "true");
+                        TXTNAME.setAttribute("disabled", "true");
+                        if (BarcodeModel.FATTIPI == "MD") { TXTMontajDurum.value = 'MONTAJ DAHİL' }
+                        else { TXTMontajDurum.value = 'HARİÇ' }
+                        if (BarcodeModel.FATTARIH != null) { TXTFATURADATE.value = new Date(parseInt(BarcodeModel.FATTARIH.replace("/Date(", "").replace(")/", ""), 10)).toISOString().split('T')[0]; }
+
+                    });
+
+
+                    //alert(result);
+                },
+
+                error: function (xhr, ajaxOptions, thrownError) {
+
+                    alert('Failed to retrieve DATA!!!.');
+
+                }
+
+            });
+
+        }
+    </script>
+
+
+}
+
+<div>
+
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

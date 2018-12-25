@@ -1,0 +1,87 @@
+﻿@model PTEKNIK.Models.Documents
+
+@{
+    ViewBag.Title = "Dokumanteler";
+    Layout = "~/Views/Shared/_MasterAdminLayout.cshtml";
+}
+
+<h2>Dokumanteler</h2>
+
+@using (Html.BeginForm("Dokumanteler", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="col-lg-6">
+        <div class="form-horizontal">
+            <h4>Dökümantasyonlar</h4>
+            <hr />
+
+            <div class="form-group">
+                <div class="col-md-4">Resim/Dosya</div>
+                <div class="col-md-8">
+                    <input type="file" class="form-control" name="PATH" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-4">Açıklama</div>
+                <div class="col-md-8">
+                    <textarea name="ACIKLAMA" class="form-control" id="TXTAciklama"></textarea>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Yükle" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    function GetWaitedForms(fromSearch) {
+        var searchParam = '';
+        var i = 0;
+        $.ajax({
+            cache: false,
+            type: "GET",
+            url: "GetDokumans",
+            data: {},
+            success: function (data) {
+                var result = "";
+                var TBLForms = document.getElementById('TBLForms');
+                $.each(data, function (id, Documents) {
+
+                    result += '<tr><td><a onclick=Sil(' + Documents.LOGICALREF + ') class="btn btn-danger">Sil</a></td>' +
+                        '<td><a href="../../Dokumantasyonlar/' + Documents.PATH + '" target="_blank">Görüntüle</a></td>' +
+                        '<td>' + Documents.ACIKLAMA + '</td></tr>';
+                    i++;
+                });
+
+                TBLForms.innerHTML = result;
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert('Failed to retrieve DATA!!!.');
+            }
+        });
+
+    }
+    window.onload = GetWaitedForms(0);
+</script>
+<div class="col-lg-6">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th colspan="3">Dökümanlar</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Döküman Adı</th>
+                <th>Açıklama</th>
+            </tr>
+        </thead>
+        <tbody id="TBLForms"></tbody>
+    </table>
+</div>
+

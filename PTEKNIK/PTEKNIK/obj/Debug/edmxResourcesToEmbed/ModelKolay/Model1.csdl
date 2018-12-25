@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LKSDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C_SRG_FATURUN_033_01">
+    <Key>
+      <PropertyRef Name="LOGICALREF" />
+    </Key>
+    <Property Name="LOGICALREF" Type="Int32" Nullable="false" />
+    <Property Name="ORFLINEREF" Type="Int32" />
+    <Property Name="Barcode" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Name="UrunId" Type="Int32" />
+    <Property Name="LUrunId" Type="Int32" />
+    <Property Name="ADDDATE" Type="DateTime" Precision="3" />
+    <Property Name="UrunAdi" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="UrunKodu" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="LUrunAdi" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="LUrunKodu" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="ORFICHENO" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Name="ORFDATE" Type="DateTime" Precision="0" />
+    <Property Name="AKTARIML" Type="Int32" />
+    <Property Name="ORDFICHEREF" Type="Int32" />
+    <Property Name="UrunTip" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="OZELint" Type="Int32" />
+    <Property Name="GRUPint" Type="Int32" />
+    <Property Name="OZELSTR" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Name="AMOUNT" Type="Double" />
+    <Property Name="SHIPPEDAMOUNT" Type="Double" />
+    <Property Name="DATE_" Type="DateTime" Precision="3" />
+    <Property Name="FICHENO" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+    <Property Name="CODE" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+    <Property Name="DEFINITION_" Type="String" MaxLength="201" FixedLength="false" Unicode="false" />
+    <Property Name="CREF" Type="Int32" />
+    <Property Name="INVREF" Type="Int32" />
+    <Property Name="ITARIH" Type="DateTime" Precision="3" />
+    <Property Name="INVFISNO" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+    <Property Name="INVCYP" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="INVSPE" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="ETIKET" Type="String" MaxLength="51" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="LKSDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C_SRG_FATURUN_033_01" EntityType="Self.C_SRG_FATURUN_033_01" />
+  </EntityContainer>
+</Schema>

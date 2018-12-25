@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LKSDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'LKSDB.dbo.C_SRG_FATURUN_033_01' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="C_SRG_FATURUN_033_01">
+    <Key>
+      <PropertyRef Name="LOGICALREF" />
+    </Key>
+    <Property Name="LOGICALREF" Type="int" Nullable="false" />
+    <Property Name="ORFLINEREF" Type="int" />
+    <Property Name="Barcode" Type="nvarchar" MaxLength="24" />
+    <Property Name="UrunId" Type="int" />
+    <Property Name="LUrunId" Type="int" />
+    <Property Name="ADDDATE" Type="datetime" />
+    <Property Name="UrunAdi" Type="nvarchar" MaxLength="80" />
+    <Property Name="UrunKodu" Type="nvarchar" MaxLength="80" />
+    <Property Name="LUrunAdi" Type="nvarchar" MaxLength="80" />
+    <Property Name="LUrunKodu" Type="nvarchar" MaxLength="80" />
+    <Property Name="ORFICHENO" Type="nvarchar" MaxLength="24" />
+    <Property Name="ORFDATE" Type="smalldatetime" />
+    <Property Name="AKTARIML" Type="int" />
+    <Property Name="ORDFICHEREF" Type="int" />
+    <Property Name="UrunTip" Type="nvarchar" MaxLength="10" />
+    <Property Name="OZELint" Type="int" />
+    <Property Name="GRUPint" Type="int" />
+    <Property Name="OZELSTR" Type="nvarchar" MaxLength="24" />
+    <Property Name="AMOUNT" Type="float" />
+    <Property Name="SHIPPEDAMOUNT" Type="float" />
+    <Property Name="DATE_" Type="datetime" />
+    <Property Name="FICHENO" Type="varchar" MaxLength="17" />
+    <Property Name="CODE" Type="varchar" MaxLength="17" />
+    <Property Name="DEFINITION_" Type="varchar" MaxLength="201" />
+    <Property Name="CREF" Type="int" />
+    <Property Name="INVREF" Type="int" />
+    <Property Name="ITARIH" Type="datetime" />
+    <Property Name="INVFISNO" Type="varchar" MaxLength="17" />
+    <Property Name="INVCYP" Type="varchar" MaxLength="11" />
+    <Property Name="INVSPE" Type="varchar" MaxLength="11" />
+    <Property Name="ETIKET" Type="varchar" MaxLength="51" />
+  </EntityType>
+  <EntityContainer Name="LKSDBModelStoreContainer">
+    <EntitySet Name="C_SRG_FATURUN_033_01" EntityType="Self.C_SRG_FATURUN_033_01" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [C_SRG_FATURUN_033_01].[LOGICALREF] AS [LOGICALREF], 
+    [C_SRG_FATURUN_033_01].[ORFLINEREF] AS [ORFLINEREF], 
+    [C_SRG_FATURUN_033_01].[Barcode] AS [Barcode], 
+    [C_SRG_FATURUN_033_01].[UrunId] AS [UrunId], 
+    [C_SRG_FATURUN_033_01].[LUrunId] AS [LUrunId], 
+    [C_SRG_FATURUN_033_01].[ADDDATE] AS [ADDDATE], 
+    [C_SRG_FATURUN_033_01].[UrunAdi] AS [UrunAdi], 
+    [C_SRG_FATURUN_033_01].[UrunKodu] AS [UrunKodu], 
+    [C_SRG_FATURUN_033_01].[LUrunAdi] AS [LUrunAdi], 
+    [C_SRG_FATURUN_033_01].[LUrunKodu] AS [LUrunKodu], 
+    [C_SRG_FATURUN_033_01].[ORFICHENO] AS [ORFICHENO], 
+    [C_SRG_FATURUN_033_01].[ORFDATE] AS [ORFDATE], 
+    [C_SRG_FATURUN_033_01].[AKTARIML] AS [AKTARIML], 
+    [C_SRG_FATURUN_033_01].[ORDFICHEREF] AS [ORDFICHEREF], 
+    [C_SRG_FATURUN_033_01].[UrunTip] AS [UrunTip], 
+    [C_SRG_FATURUN_033_01].[OZELint] AS [OZELint], 
+    [C_SRG_FATURUN_033_01].[GRUPint] AS [GRUPint], 
+    [C_SRG_FATURUN_033_01].[OZELSTR] AS [OZELSTR], 
+    [C_SRG_FATURUN_033_01].[AMOUNT] AS [AMOUNT], 
+    [C_SRG_FATURUN_033_01].[SHIPPEDAMOUNT] AS [SHIPPEDAMOUNT], 
+    [C_SRG_FATURUN_033_01].[DATE_] AS [DATE_], 
+    [C_SRG_FATURUN_033_01].[FICHENO] AS [FICHENO], 
+    [C_SRG_FATURUN_033_01].[CODE] AS [CODE], 
+    [C_SRG_FATURUN_033_01].[DEFINITION_] AS [DEFINITION_], 
+    [C_SRG_FATURUN_033_01].[CREF] AS [CREF], 
+    [C_SRG_FATURUN_033_01].[INVREF] AS [INVREF], 
+    [C_SRG_FATURUN_033_01].[ITARIH] AS [ITARIH], 
+    [C_SRG_FATURUN_033_01].[INVFISNO] AS [INVFISNO], 
+    [C_SRG_FATURUN_033_01].[INVCYP] AS [INVCYP], 
+    [C_SRG_FATURUN_033_01].[INVSPE] AS [INVSPE], 
+    [C_SRG_FATURUN_033_01].[ETIKET] AS [ETIKET]
+    FROM [dbo].[C_SRG_FATURUN_033_01] AS [C_SRG_FATURUN_033_01]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

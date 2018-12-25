@@ -1,0 +1,145 @@
+﻿@model IEnumerable<PTEKNIK.Models.FORMLines>
+
+@{
+    ViewBag.Title = "FormList";
+    Layout = "~/Views/Shared/_MasterAdminLayout.cshtml";
+}
+
+<h2>Form Listeleri</h2>
+
+<script type="text/javascript">
+    var tableToExcel = (function () {
+        var uri = 'data:application/vnd.ms-excel;base64,'
+            , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><meta http-equiv="content-type" content="text/plain; charset=UTF-8"/></head><body><table>{table}</table></body></html>'
+            , base64 = function (s) { return window.btoa(unescape(encodeURIComponent(s))) }
+            , format = function (s, c) { return s.replace(/{(\w+)}/g, function (m, p) { return c[p]; }) }
+        return function (table, name) {
+            if (!table.nodeType) table = document.getElementById(table)
+            var ctx = { worksheet: name || 'Worksheet', table: table.innerHTML }
+            window.location.href = uri + base64(format(template, ctx))
+        }
+    })()
+</script>
+
+<div class="row">
+    <div class="pull-left col-lg-2">
+        <a href="?formtype=Montaj&searchparams=@Request.QueryString["searchParams"]" class="btn btn-info">Montaj</a>
+        <a href="?formtype=Arıza&searchparams=@Request.QueryString["searchParams"]" class="btn btn-info">Arıza</a>
+    </div>
+    <div class="col-lg-4">
+        <form method="get">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Teknik Servis /Müşteri Adı" name="searchparams" value="@Request.QueryString["searchparams"]" />
+                <span class="input-group-addon"> <input type="submit" value="Ara"  /></span>
+            </div>
+            
+           
+        </form>
+    </div>
+    <div class=" col-lg-6">
+        <a href="?durumSearch=and (DURUM is null or DURUM=0)&formtype=@Request.QueryString["formtype"]" class="btn btn-info">Onay Bekleyenler</a>
+        <a href="?durumSearch=and DURUM=1&formtype=@Request.QueryString["formtype"]" class="btn btn-success">Onaylananlar</a>
+        <a href="?durumSearch=and DURUM=-1&formtype=@Request.QueryString["formtype"]" class="btn btn-danger">Reddedilenler</a>
+
+    </div>
+</div>
+<style>
+    #TBLFORMS a {
+        text-decoration: none;
+        color: #000;
+    }
+</style>
+<table id="TBLFORMS" class="table table-striped" style="margin-top:10px;">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            <a href="?sort=order by DURUM @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                DURUM
+            </a>
+        </th>
+        <th>
+            <a href="?sort=order by FORMTYPE @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                Form Tipi
+            </a>
+        </th>
+
+        <th>
+            <a href="?sort=order by FORMTYPE @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                Ad Soyad
+            </a>
+        </th>
+
+
+        <th>
+            <a href="?sort=order by NAME @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                Firma Adı
+            </a>
+        </th>
+
+        <th>
+            <a href="?sort=order by MONTAJDATE @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                Montaj
+            </a>
+        </th>
+        <th>
+            <a href="?sort=order by ARIZADATE @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                Arıza
+            </a>
+        </th>
+        <th>
+            <a href="?sort=order by ADDDATE @((Request.QueryString["DURUM"]=="1")?"asc":"desc")&DURUM=@((Request.QueryString["DURUM"]=="1")?"0":"1")">
+                Eklenme
+            </a>
+        </th>
+        <th>
+            Açıklama
+        </th>
+        <th>
+            Yapılan İş
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="@item.TRSTYLE">
+            <td>
+                <a href="FormBas?ficheno=@item.FICHENO&formtype=@item.FORMTYPE" class="btn btn-success btn-sm">Seç</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ONAYDURUM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FORMTYPE)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ADSOYAD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NAME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MONTAJDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ARIZADATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ADDDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ACIKLAMA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CACIKLAMA)
+            </td>
+
+
+        </tr>
+    }
+
+</table>

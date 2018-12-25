@@ -1,0 +1,64 @@
+﻿@model IEnumerable<PTEKNIK.Models.USERS>
+
+@{
+    ViewBag.Title = "UserList";
+    Layout = "~/Views/Shared/_MasterAdminLayout.cshtml";
+}
+
+<h2>Kullanıcı Listesi</h2>
+
+<p>
+    @Html.ActionLink("Yeni Oluştur", "ClientList")
+</p>
+<table class="table table-striped">
+    <tr>
+        <th>
+            Kullanıcı adı
+        </th>
+        <th>
+            Şifre
+        </th>
+        <th>
+            Yetkili
+        </th>
+        <th>
+           Eklenme tarihi
+        </th>
+        <th>
+            İsim
+        </th>
+        <th>
+            Kod
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.USERNAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PASSWORD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AUTHORITY)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ADDDATE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CODE)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "UserEdit", new { id=item.LOGICALREF }) |
+            @Html.ActionLink("Detay", "UserDetail", new { id = item.LOGICALREF }) |
+            @Html.ActionLink("Sil", "UserDelete", new { id = item.LOGICALREF })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<PTEKNIK.Models.FORMLines>
+
+@{
+    ViewBag.Title = "HakOnayList";
+    Layout = "~/Views/Shared/_MasterYonetimLayout.cshtml";
+}
+
+<h2>Form Listeleri</h2>
+
+<div class="row">
+    <div style="text-align:right;" class="pull-right col-lg-5">
+        <a href="?DURUM=1" class="btn btn-info">Onay Bekleyenler</a>
+        <a href="?DURUM=2" class="btn btn-success">Onaylananlar</a>
+        <a href="?DURUM=-2" class="btn btn-danger">Reddedilenler</a>
+    </div>
+</div>
+
+
+<table class="table table-striped" style="margin-top:10px;">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            Form Tipi
+        </th>
+        <th>
+            Fiş No
+        </th>
+        <th>
+            Ad Soyad
+        </th>
+
+
+        <th>
+            Firma Adı
+        </th>
+        <th>
+            Admin
+        </th>
+        <th>
+            Yönetim
+        </th>
+        <th>
+           Servis
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="@item.TRSTYLE">
+            <td>
+                <a href="FormBas?ficheno=@item.FICHENO&formtype=@item.FORMTYPE" class="btn btn-success btn-sm">Seç</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FORMTYPE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FICHENO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ADSOYAD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NAME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ADMACIKLAMA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YONACIKLAMA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CACIKLAMA)
+            </td>
+
+
+        </tr>
+    }
+
+</table>

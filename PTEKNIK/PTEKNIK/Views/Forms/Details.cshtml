@@ -1,0 +1,220 @@
+﻿@model PTEKNIK.Models.FORMLines
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2 style="margin-top:15px;">Detay</h2>
+<hr />
+<div>
+    
+    <div class="form-horizontal">
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Detay
+                </div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Belge No</div></span>
+                                @Html.EditorFor(model => model.BELGESTR, new { htmlAttributes = new { id = "BelgeSTR", @class = "form-control", @disabled = "true" } })
+                                @Html.ValidationMessageFor(model => model.BELGESTR, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style=" text-align:left;">/</div></span>
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                @Html.EditorFor(model => model.BELGENO, new { htmlAttributes = new { @class = "form-control", @disabled = "true" } })
+                                @Html.ValidationMessageFor(model => model.BELGENO, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon">Müşterinin Adı</span>
+                                @Html.EditorFor(model => model.ADSOYAD, new { htmlAttributes = new { @class = "form-control",@readonly="true" } })
+                                @Html.ValidationMessageFor(model => model.ADSOYAD, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Adres</div></span>
+                                @Html.EditorFor(model => model.ADRES, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.ADRES, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">GSM</div></span>
+                                @Html.EditorFor(model => model.TEL, new { htmlAttributes = new { @class = "form-control phone", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.TEL, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Tel</div></span>
+                                @Html.EditorFor(model => model.TEL2, new { htmlAttributes = new { @class = "form-control phone", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.TEL2, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">E-Posta</div></span>
+                                @Html.EditorFor(model => model.EMAIL, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="row" style="@ViewData["montajdateStyle"]">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Montaj Tarihi</div></span>
+                                @Html.EditorFor(model => model.MONTAJDATE, new { htmlAttributes = new { @class = "form-control datepicker", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.MONTAJDATE, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="@ViewData["arizadateStyle"]">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Arıza Tarihi</div></span>
+                                @Html.EditorFor(model => model.ARIZADATE, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.ARIZADATE, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Firma</div></span>
+                                @Html.EditorFor(model => model.FIRMA, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.FIRMA, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="panel-footer">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Cihaz Bilgileri
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Satıcı Firma</div></span>
+                                @Html.EditorFor(model => model.SATICIFIRMA, new { htmlAttributes = new { @class = "form-control", id = "TXTSATICIFIRMA", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.SATICIFIRMA, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Fatura Tarihi</div></span>
+                                @Html.EditorFor(model => model.FATURADATE, new { htmlAttributes = new { @class = "form-control", id = "TXTFATURADATE", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.FATURADATE, "", new { @class = "text-danger" })
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Fatura No</div></span>
+                                @Html.EditorFor(model => model.FATURANO, new { htmlAttributes = new { @class = "form-control", id = "TXTFATURANO", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.FATURANO, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Garanti No</div></span>
+                                @Html.EditorFor(model => model.GARANTINO, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.GARANTINO, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Cihaz</div></span>
+                                @Html.EditorFor(model => model.CIHAZ, new { htmlAttributes = new { @class = "form-control", id = "TXTNAME", @readonly = "true" } })
+                                @Html.ValidationMessageFor(model => model.CIHAZ, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group input-group">
+                                &nbsp;
+                                <span class="input-group-addon"><div style="width:90px; text-align:left;">Cihaz Seri No</div></span>
+                                @*@Html.EditorFor(model => model.CIHAZSERINO, new { htmlAttributes = new { @class = "form-control",id="TXTSeriNo" } })*@
+                                @Html.ValidationMessageFor(model => model.CIHAZSERINO, "", new { @class = "text-danger", @readonly = "true" })
+                                <input type="text" id="TXTCIHAZSERINO" onkeyup="GetConditioners(1);" name="CIHAZSERINO" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <div class="col-md-offset-0 col-md-10">
+                        
+                            <a href="javascript:" onclick="window.print();" class="btn btn-info">Yazdır</a>
+
+                        </div>
+                        <div class="col-md-2 pull-left">
+                            <a href="Formlist?formtype=@Request.Params["formtype"]" class="btn btn-danger">Geri</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

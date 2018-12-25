@@ -1,0 +1,62 @@
+﻿@model IEnumerable<PTEKNIK.Models.UrunGaranti>
+
+@{
+    ViewBag.Title = "GarantiList";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Ürün Garanti Listesi</h2>
+
+<p>
+ 
+</p>
+<table class="table table-striped">
+    <tr>
+        <th>
+          Ürün Adı
+        </th>
+        <th>
+            İç Barkod
+        </th>
+        <th>
+            Dış Barkod
+        </th>
+        <th>
+            Kapak
+        </th>
+        <th>
+            Eklenme Tarihi
+        </th>
+        <th>
+            Garanti Bitiş
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.URUNADI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ICBARKOD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DISBARKOD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BARKOD3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ADDDATE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GARANTISON)
+        </td>
+        <td>
+         
+        </td>
+    </tr>
+}
+
+</table>

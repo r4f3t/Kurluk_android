@@ -1,0 +1,103 @@
+﻿@model IEnumerable<PTEKNIK.Models.CLIENTS>
+
+@{
+    ViewBag.Title = "ClientList";
+    Layout = "~/Views/Shared/_MasterAdminLayout.cshtml";
+}
+
+<h2>Cari Listesi</h2>
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript">
+    function GetClients(e, fromSearch) {
+        if (e.keyCode != 13) {
+            return;
+        }
+        var searchParam = '';
+        searchParam = document.getElementById('TXTAra').value;
+        var i = 0;
+        $.ajax({
+            cache: false,
+            type: "GET",
+            url: "GetClients",
+            data: { 'searchSTR': searchParam },
+            success: function (data) {
+                var result = "";
+                var TBLFORMS = document.getElementById('TBLForms');
+                //  var TXTKayit = document.getElementById('TXTKayitSayi');
+                $.each(data, function (id, CLIENTS) {
+                    result += '   <tr class="" role="row">' +
+                        '<td><a href="UserAdd?authid=1&clientref=' + CLIENTS.LOGICALREF + '&def=' + CLIENTS.DEFINITION_ + '&code=' + CLIENTS.CODE + '&telnrs1=' + CLIENTS.TELNRS1 + '" class="btn btn-success">Seç</a></td>' +
+                        '<td> ' + CLIENTS.DEFINITION_ + '</td >' +
+                        '<td> ' + CLIENTS.CODE + '</td >' +
+                        '<td> ' + CLIENTS.SPECODE + '</td >' +
+                        '</tr >';
+                    i++;
+                });
+                //   TXTKayit.innerHTML = i + " Adet Kayıt Listelendi."
+                TBLFORMS.innerHTML = result;
+
+                //alert(result);
+            },
+
+            error: function (xhr, ajaxOptions, thrownError) {
+
+                alert('Failed to retrieve DATA!!!.');
+
+            }
+
+        });
+
+    }
+</script>
+
+
+<p>
+    <a href="UserAdd?authid=0">Admin Oluştur</a>
+
+</p>
+<div class="panel panel-default">
+    <div class="panel-heading">Cari Listesi</div>
+
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="dataTables_filter">
+                    <div class="col-lg-3">
+                        <label>Arama:</label>
+                        <input id="TXTAra" onkeypress="GetClients(event);" type="text" class="form-control input-sm" placeholder="" />
+                    </div>
+                    <div class="col-lg-3 pull-right">
+                        <label>Şehir:</label>
+                        <select class="form-control">
+                            <option>rafet</option>
+                        </select>
+                    </div>
+                    <div class="row"><div class="col-sm-6"><div class="dataTables_info" id="TXTKayitSayi"></div></div></div>
+                </div>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>
+                        Cari Adı
+                    </th>
+                    <th>
+                        Kodu
+                    </th>
+                    <th>
+                        ÖZel Kodu
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody id="TBLForms"></tbody>
+
+        </table>
+
+    </div>
+</div>
+

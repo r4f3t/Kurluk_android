@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LKSDBModelStoreContainer" CdmEntityContainer="LKSDBEntities">
+    <EntitySetMapping Name="C_SRG_FATURUN_033_01">
+      <EntityTypeMapping TypeName="LKSDBModel.C_SRG_FATURUN_033_01">
+        <MappingFragment StoreEntitySet="C_SRG_FATURUN_033_01">
+          <ScalarProperty Name="LOGICALREF" ColumnName="LOGICALREF" />
+          <ScalarProperty Name="ORFLINEREF" ColumnName="ORFLINEREF" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="LUrunId" ColumnName="LUrunId" />
+          <ScalarProperty Name="ADDDATE" ColumnName="ADDDATE" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="UrunKodu" ColumnName="UrunKodu" />
+          <ScalarProperty Name="LUrunAdi" ColumnName="LUrunAdi" />
+          <ScalarProperty Name="LUrunKodu" ColumnName="LUrunKodu" />
+          <ScalarProperty Name="ORFICHENO" ColumnName="ORFICHENO" />
+          <ScalarProperty Name="ORFDATE" ColumnName="ORFDATE" />
+          <ScalarProperty Name="AKTARIML" ColumnName="AKTARIML" />
+          <ScalarProperty Name="ORDFICHEREF" ColumnName="ORDFICHEREF" />
+          <ScalarProperty Name="UrunTip" ColumnName="UrunTip" />
+          <ScalarProperty Name="OZELint" ColumnName="OZELint" />
+          <ScalarProperty Name="GRUPint" ColumnName="GRUPint" />
+          <ScalarProperty Name="OZELSTR" ColumnName="OZELSTR" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="SHIPPEDAMOUNT" ColumnName="SHIPPEDAMOUNT" />
+          <ScalarProperty Name="DATE_" ColumnName="DATE_" />
+          <ScalarProperty Name="FICHENO" ColumnName="FICHENO" />
+          <ScalarProperty Name="CODE" ColumnName="CODE" />
+          <ScalarProperty Name="DEFINITION_" ColumnName="DEFINITION_" />
+          <ScalarProperty Name="CREF" ColumnName="CREF" />
+          <ScalarProperty Name="INVREF" ColumnName="INVREF" />
+          <ScalarProperty Name="ITARIH" ColumnName="ITARIH" />
+          <ScalarProperty Name="INVFISNO" ColumnName="INVFISNO" />
+          <ScalarProperty Name="INVCYP" ColumnName="INVCYP" />
+          <ScalarProperty Name="INVSPE" ColumnName="INVSPE" />
+          <ScalarProperty Name="ETIKET" ColumnName="ETIKET" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,153 @@
+﻿@model PTEKNIK.Models.FORMSIndex
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+
+}
+<hr />
+
+<h3 style="margin-top:50px;">KURLUK Mühendislik Teknik Servis Modülü Dashboard Ekranı</h3>
+<hr />
+
+<h4>
+    <small>HOŞGELDİNİZ</small>  @Server.UrlDecode(GLOBALS.GetCookie("giris")["NAME"])  --<small>@GLOBALS.GetCookie("giris")["CODE"]</small>
+</h4>
+<div class="row">
+
+    <div class="col-lg-4">
+        <div class="panel panel-default panel-red">
+            <div class="panel-heading">
+                <i class="fa fa-warning fa-fw"></i> Bekleyen Teknik İşler
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                function GetWaitedForms(fromSearch) {
+                    var searchParam = '';
+                    var i = 0;
+                    $.ajax({
+                        cache: false,
+                        type: "GET",
+                        url: "GetWaitedForms",
+                        data: {},
+                        success: function (data) {
+                            var result = "";
+                            var DivList = document.getElementById('DivList');
+
+                            $.each(data, function (id, FORMLINES) {
+                                var GunFark = (FORMLINES.TIMEDIFF == 0) ? 'Bugün' : FORMLINES.TIMEDIFF + ' Gün Önce';
+                                result += '  <a href="../Ariza/FormBas?ficheno=' + FORMLINES.FICHENO + '" class="list-group-item">' +
+                                    '<i class="fa fa-gears fa-fw"></i>' + FORMLINES.FORMTYPE + ' Talebi' +
+                                    '<span class="pull-right text-muted small">' +
+                                    '<em>' + GunFark + '</em>' +
+                                    '</span>' +
+                                    '</a>';
+                                i++;
+                            });
+
+                            DivList.innerHTML = result;
+                        },
+
+                        error: function (xhr, ajaxOptions, thrownError) {
+
+                            alert('Failed to retrieve DATA!!!.');
+
+                        }
+
+                    });
+
+                }
+                window.onload = GetWaitedForms(0);
+            </script>
+
+
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div class="list-group" id="DivList">
+                </div>
+                <!-- /.list-group -->
+                <a href="../Montajbas/Index" class="btn btn-default btn-block">Tüm Montaj Formlarını Göster</a>
+                <a href="../Ariza/Index" class="btn btn-default btn-block">Tüm Arıza Formlarını Göster</a>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+
+    </div>
+   
+        <div class="col-lg-2">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-check fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge" >
+                                @Html.DisplayFor(modelItem=>Model.ONAYLANAN)
+                            </div>
+                            <div>Onaylanan </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="panel-footer">
+                        <span class="pull-left">Form Listeleri</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-2">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-question-circle fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge">
+                                @Html.DisplayFor(modelItem=>Model.BEKLEYEN )
+                            </div>
+                            <div> Bekleyen </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="panel-footer">
+                        <span class="pull-left">Form Listeleri</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-2">
+            <div class="panel panel-red">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-times fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge">
+                                @Html.DisplayFor(modelItem=>Model.REDDEDILEN)
+                            </div>
+                            <div>Reddedilen </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="panel-footer">
+                        <span class="pull-left">Form Listeleri</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+

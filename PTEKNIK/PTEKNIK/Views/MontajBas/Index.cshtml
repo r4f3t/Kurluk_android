@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+
+<h2>Montaj Formlarım</h2>
+
+
+<p>
+    <a href='FormBas?ficheno=0'> Yeni Form Ekle</a>
+</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    function GetFORMLINES(fromSearch) {
+        var durum = '@Request.QueryString["durum"]';
+        var searchParam = '';
+        var formtype='MONTAJ';
+        if (fromSearch == 1) {
+            searchParam = document.getElementById('TXTAra').value;
+        }
+        var i = 0;
+        $.ajax({
+            cache: false,
+            type: "GET",
+            url: "GetFormsJson",
+            data: { 'SQLAra': searchParam, 'formtype': formtype, 'durum': durum },
+            success: function (data) {
+                var result = "";
+                var TBLFORMS = document.getElementById('TBLForms');
+                var TXTKayit = document.getElementById('TXTKayitSayi');
+                $.each(data, function (id, FORMLINES) {
+                    var Href = "FormBas?ficheno=" + FORMLINES.FICHENO;
+                    if (FORMLINES.DURUM) {
+                        Href = "FormOnizle?ficheno=" + FORMLINES.FICHENO;
+                    }
+                    
+                    result += '   <tr class="' + FORMLINES.TRSTYLE + '">' +
+                        '<td class="center">' +
+                        '<a class="btn btn-primary" href = "' + Href + '" > Detay</a >' +
+                        '</td > ' +
+                        '<td> ' + FORMLINES.ONAYDURUM + '</td >' +
+                        '<td> ' + FORMLINES.BELGENO + '</td >' +
+                        '<td>' + FORMLINES.ADSOYAD + '</td>' +
+                        '<td>' + FORMLINES.ADRES + '</td>' +
+                        '<td class="center">' + FORMLINES.TEL + '</td>' +
+
+                        '</tr >';
+                    i++;
+                });
+                TXTKayit.innerHTML = i + " Adet Kayıt Listelendi."
+                TBLFORMS.innerHTML = result;
+
+                //alert(result);
+            },
+
+            error: function (xhr, ajaxOptions, thrownError) {
+
+                alert('Failed to retrieve DATA!!!.');
+
+            }
+
+        });
+
+    }
+    window.onload = GetFORMLINES(0);
+</script>
+
+
+
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Teknik Serviş Fişleri
+        </div>
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <div class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+                <div class="row">
+                    <div >
+                        <div class="dataTables_filter">
+                            <label>Arama:</label>
+                            <input id="TXTAra" onkeyup="GetFORMLINES(1);" type="text" class="form-control input-sm" placeholder="" />
+                            <div class="pull-right">
+                                <a href="?durum=1" class="btn btn-success btn-sm">Onaylı</a>
+                                <a href="?durum=-1"  class="btn btn-danger btn-sm">Onaysız</a>
+                                <a  href="?durum=2"  class="btn btn-primary btn-sm">Kapanmış</a>
+                            </div>
+                            <div class="row"><div class="col-sm-6"><div class="dataTables_info" id="TXTKayitSayi"></div></div></div>
+                        </div>
+                    </div>
+                </div><div class="row">
+                    <div>
+                        <table class="table table-bordered table-hover dataTable no-footer dtr-inline" id="dataTables-example" role="grid" aria-describedby="dataTables-example_info" style="width: 100%;">
+                            <thead>
+                                <tr role="row">
+                                    <th style="width:50px;"> </th>
+                                    <th>
+                                        DURUM
+                                    </th>
+                                    <th>
+                                        Belge No
+                                    </th>
+                                    <th>    Müşteri Adı</th>
+                                    <th>
+                                        Adres
+                                    </th>
+                                    <th>
+                                        Tel
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="TBLForms"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- /.table-responsive -->
+            <div class="well">
+
+            </div>
+        </div>
+        <!-- /.panel-body -->
+    </div>
+    <!-- /.panel -->
+</div>
+

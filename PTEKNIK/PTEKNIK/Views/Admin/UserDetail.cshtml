@@ -1,0 +1,65 @@
+﻿@model PTEKNIK.Models.USERS
+
+@{
+    ViewBag.Title = "UserDetail";
+    Layout = "~/Views/Shared/_MasterAdminLayout.cshtml";
+}
+
+<h2>Kullanıcı Detayı</h2>
+<hr />
+<div class="row">
+    <div class="col-lg-6">
+        <div class="form-group input-group">
+            <span class="input-group-addon">Kullanıcı Adı</span>
+            @Html.EditorFor(model => model.USERNAME, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+            @Html.ValidationMessageFor(model => model.USERNAME, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="form-group input-group">
+            <span class="input-group-addon"><div style="width:90px; text-align:left;">Şifre</div></span>
+            @Html.EditorFor(model => model.PASSWORD, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+            @Html.ValidationMessageFor(model => model.PASSWORD, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-5">
+        <div class="form-group input-group">
+            <span class="input-group-addon"><div style="width:90px; text-align:left;">Yetkili</div></span>
+            <select name="FORMTYPE" class="form-control">
+                <option value="Arıza">Admin</option>
+                <option value="Montaj">Personel</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="form-group input-group">
+            <span class="input-group-addon">Ad-Soyad</span>
+            @Html.EditorFor(model => model.NAME, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+            @Html.ValidationMessageFor(model => model.NAME, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        <div class="form-group input-group">
+            <span class="input-group-addon">Kod</span>
+            @Html.EditorFor(model => model.CODE, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+            @Html.ValidationMessageFor(model => model.CODE, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+</div>
+<p>
+    
+    @Html.ActionLink("Geri", "Index")
+</p>

@@ -1,0 +1,462 @@
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll.config
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\PTEKNIK.pdb
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe.config
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\csc.rsp
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe.config
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\csi.rsp
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.AppContext.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Console.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe.config
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\vbc.rsp
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\Dapper.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\EntityFramework.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Razor.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\Dapper.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\EntityFramework.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Razor.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csprojAssemblyReference.cache
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CoreCompileInputs.cache
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CopyComplete
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.dll
+C:\Users\Rafet\source\repos\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.pdb
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll.config
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\PTEKNIK.pdb
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe.config
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\csc.rsp
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe.config
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\csi.rsp
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.AppContext.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Console.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe.config
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\vbc.rsp
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\Dapper.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\EntityFramework.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Razor.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\Dapper.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\EntityFramework.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Razor.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csprojAssemblyReference.cache
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CoreCompileInputs.cache
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CopyComplete
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.dll
+C:\Users\Rafet\Documents\Visual Studio 2017\Projectss\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\csc.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\csi.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.AppContext.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Console.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\vbc.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\Dapper.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\EntityFramework.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Razor.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\Dapper.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\EntityFramework.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Razor.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csprojAssemblyReference.cache
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CoreCompileInputs.cache
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CopyComplete
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll.config
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\PTEKNIK.pdb
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe.config
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\csc.rsp
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe.config
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\csi.rsp
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.AppContext.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Console.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Compression.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Claims.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.ValueTuple.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe.config
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\vbc.rsp
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\Dapper.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\EntityFramework.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Razor.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\Dapper.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\EntityFramework.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.pdb
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Razor.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csprojAssemblyReference.cache
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CoreCompileInputs.cache
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CopyComplete
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.dll
+C:\Users\Alper\Desktop\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\csc.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\csi.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.AppContext.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Console.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\vbc.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\Dapper.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\EntityFramework.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Razor.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\Dapper.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\EntityFramework.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Razor.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csprojAssemblyReference.cache
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CoreCompileInputs.cache
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CopyComplete
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\alper\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\PTEKNIK.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\PTEKNIK.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\csc.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\csc.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\csi.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\csi.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.AppContext.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Console.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\vbc.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\vbc.rsp
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\Dapper.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\EntityFramework.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Razor.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\Dapper.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\EntityFramework.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\EntityFramework.SqlServer.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.pdb
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\ExpressiveAnnotations.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Razor.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Helpers.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\System.Web.Mvc.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csprojAssemblyReference.cache
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CoreCompileInputs.cache
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.csproj.CopyComplete
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.dll
+C:\Users\Rafet\Desktop\Mental\Kurluk Teknik Servis\RAFET\PTEKNIK\PTEKNIK\obj\Debug\PTEKNIK.pdb
